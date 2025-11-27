@@ -1,0 +1,33 @@
+
+cat > .gitignore <<'EOF'
+# Node modules (if used in future expansions)
+node_modules/
+
+# Logs
+*.log
+
+# macOS/Windows junk (if editing on other systems)
+.DS_Store
+Thumbs.db
+
+# Termux history (never push)
+.bash_history
+
+cat > .gitignore <<'EOF'
+# Node modules (if used in future expansions)
+node_modules/
+
+# Logs
+*.log
+
+# macOS/Windows junk (if editing on other systems)
+.DS_Store
+Thumbs.db
+
+# Termux history (never push)
+.bash_history
+cat > .gitignore
+cat > README.md
+[F
+
+cat > README.md
