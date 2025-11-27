@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuantumFlow AutoSystems — Self-Optimizing Automation</title>
+  <meta name="description" content="QuantumFlow AutoSystems — Android-first micro-automation for people & businesses. Automate hours, multiply output." />
+  <link rel="icon" href="assets/logo.svg" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="QuantumFlow logo" class="logo" />
+        <span class="brand-title">QuantumFlow</span>
+        <small class="brand-sub">AutoSystems</small>
+      </a>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#how">How</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="cta">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Automate your hours. Multiply your output.</h1>
+          <p class="lead">Android-first automation and lightweight workflows for people and businesses — secure, reliable, and designed to run 24/7 on low-cost systems.</p>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary">Start free audit</a>
+            <a href="#how" class="btn btn-ghost">See how it works</a>
+          </div>
+          <ul class="trust-list">
+            <li>Zero upfront cost starter</li>
+            <li>Termux-ready, privacy-first</li>
+            <li>Gmail & Drive official API integrations</li>
+          </ul>
+        </div>
+        <div class="hero-art">
+          <img src="assets/hero-bg.svg" alt="Abstract hero" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section container">
+      <h2>Services</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Email intake & reporting</h3>
+          <p>Automatically parse inbound emails into action items, logs, and neat progression reports.</p>
+        </article>
+        <article class="card">
+          <h3>Follow-up & nurture</h3>
+          <p>Sequence-driven follow-ups and reminders — keep leads engaged without manual work.</p>
+        </article>
+        <article class="card">
+          <h3>Data logging & analytics</h3>
+          <p>Capture events, compile into Sheets and dashboards, receive automated insight emails.</p>
+        </article>
+        <article class="card">
+          <h3>Reputation automation</h3>
+          <p>Ask for reviews at the perfect moment and track responses automatically.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section alt container">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><strong>Connect</strong> — Secure OAuth link to Gmail & Drive (you control permissions).</li>
+        <li><strong>Automate</strong> — Lightweight Termux workflows or cloud functions run your rules.</li>
+        <li><strong>Report</strong> — Daily/weekly progression insights land in your inbox.</li>
+      </ol>
+    </section>
+
+    <section id="pricing" class="section container">
+      <h2>Pricing</h2>
+      <div class="pricing-grid">
+        <div class="plan">
+          <h3>Starter</h3>
+          <p class="price">Free</p>
+          <p>Free audit + 1 automation template. Perfect for testing on a single workflow.</p>
+        </div>
+        <div class="plan highlight">
+          <h3>Pro</h3>
+          <p class="price">$97 / month</p>
+          <p>Up to 5 automations, daily reports, priority support, monthly tune-ups.</p>
+        </div>
+        <div class="plan">
+          <h3>Agency</h3>
+          <p class="price">$297 / month</p>
+          <p>White-label, onboarding, and bespoke integrations for multiple clients.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Get started</h2>
+      <p>Tell us your bottleneck. We'll run a free audit and propose an automation roadmap.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p><a href="mailto:quantumflow.autosystems@gmail.com">quantumflow.autosystems@gmail.com</a></p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Quick pay</h3>
+          <p>Cash App: <strong>@QuantumFlow</strong> (optional billing setup)</p>
+        </div>
+
+        <form class="contact-form" onsubmit="onContact(event)">
+          <label>Name<input id="name" required /></label>
+          <label>Email<input id="email" type="email" required /></label>
+          <label>Message<textarea id="message" rows="4" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> QuantumFlow AutoSystems — Built for continuous performance.</p>
+      <p class="muted">Privacy • Terms • Contact</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
