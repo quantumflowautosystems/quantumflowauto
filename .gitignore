@@ -1,12 +1,4 @@
-# Node modules (if used in future expansions)
 node_modules/
-
-# Logs
-*.log
-
-# macOS/Windows junk (if editing on other systems)
+.bash_history
 .DS_Store
 Thumbs.db
-
-# Termux history (never push)
-.bash_history
